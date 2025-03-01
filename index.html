@@ -27,16 +27,16 @@
             <div class="hero-content flex-col lg:flex-row-reverse">
               
               <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-                <div class="card-body">
+                <form class="card-body">
                   <fieldset class="fieldset">
                     <label class="fieldset-label">Mobile Number</label>
-                    <input type="number" class="input rounded-3xl" placeholder="Enter your number" />
+                    <input value="01301234895" type="number" class="input rounded-3xl" placeholder="Enter your number" id="acc-no" maxlength="11" required/>
                     <label class="fieldset-label">4 Digit Pin</label>
-                    <input type="text" class="input rounded-3xl" placeholder="Enter 4 Digit Pin" />
+                    <input type="text" class="input rounded-3xl" placeholder="Enter 4 Digit Pin" id="digit" required/>
                     <div><a class="link link-hover">Forgot password?</a></div>
                     <button class="btn bg-[#0874F2] text-white mt-4 rounded-3xl" id="btn-login">Login</button>
                   </fieldset>
-                </div>
+                </form>
               </div>
             </div>
           </div>
